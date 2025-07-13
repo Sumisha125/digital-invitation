@@ -3,11 +3,11 @@ import formbg from "./assets/images/formbg.jpg";
 
 function Form({ formData, onChange, setShowCard }) {
   return (
-    <div className="min-h-screen w-screen relative overflow-hidden">
+    <div className="h-screen w-screen relative overflow-hidden">
       <img
         src={formbg}
         alt="background"
-        className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2  w-[33%] h-[75%] object-cover"
+        className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[90%] sm:w-[70%] md:w-[50%] lg:w-[35%] h-auto"
       />
 
       <form

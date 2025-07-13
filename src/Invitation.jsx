@@ -7,7 +7,7 @@ function Invitation(props) {
       <img
         src={bg3}
         alt="background"
-        className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-auto h-auto w-[55%] h-[100%]"
+        className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[90%] sm:w-[70%] md:w-[60%] lg:w-[50%] h-auto"
       />
 
       <div className="relative z-10 flex items-center justify-center h-full w-full">
