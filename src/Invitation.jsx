@@ -11,16 +11,16 @@ function Invitation(props) {
       />
 
       <div className="relative z-10 flex items-center justify-center h-full w-full">
-        <div className="bg-black bg-opacity-10 backdrop-blur-md p-8 rounded-xl text-white text-2xl text-center max-w-lg w-full space-y-4 shadow-lg">
+        <div className="bg-black bg-opacity-10 backdrop-blur-md p-8 rounded-xl text-white text-center max-w-lg w-full space-y-4 shadow-lg">
           <h1 className="text-3xl font-bold">{props.eventName}</h1>
           <p>
             <strong>Hosted by:</strong> {props.host}
           </p>
-          <p className="text-2xl">
+          <p>
             {props.date} at {props.time}
           </p>
-          <p className="text-2xl">{props.venue}</p>
-          <p className="italic text-2xl">{props.message}</p>
+          <p>{props.venue}</p>
+          <p className="italic ">{props.message}</p>
         </div>
       </div>
     </div>
