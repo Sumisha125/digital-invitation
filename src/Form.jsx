@@ -7,12 +7,12 @@ function Form({ formData, onChange, setShowCard }) {
       <img
         src={formbg}
         alt="background"
-        className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[90%] sm:w-[70%] md:w-[50%] lg:w-[35%] h-auto"
+        className="absolute left-1/2 top-1/2 transform-translate-x-1/2 transform-translate-y-1/2 w-[90%] sm:w-[70%] md:w-[50%] lg:w-[35%] h-auto"
       />
 
       <form
         onSubmit={(e) => e.preventDefault()} // prevent submit for demo
-        className="absolute top-[55%] left-1/2 max-w-md w-11/12 bg-opacity-90 p-6  transform -translate-x-1/2 -translate-y-1/2"
+        className="absolute top-[55%] left-1/2 max-w-md w-11/12 bg-opacity-90 p-6 transform-translate-x-1/2 transform-translate-y-1/2"
       >
         <input
           type="text"
